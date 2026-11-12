@@ -1,0 +1,56 @@
+[
+  {
+    "transaction_id": "TX-1001",
+    "source_system": "POS_LOCAL",
+    "date": "2026-11-10 10:30:00",
+    "client_name": "ana perez",
+    "amount": 250.00,
+    "currency": "USD",
+    "status": "COMPLETED"
+  },
+  {
+    "id": "TX-1002",
+    "source_system": "API_BANCARIA",
+    "date": "11-11-2026 14:15",
+    "client_name": "CARLOS GOMEZ",
+    "amount": 1500.00,
+    "currency": "EUR",
+    "status": "SUCCESS"
+  },
+  {
+    "transaction_id": "",
+    "source_system": "POS_LOCAL",
+    "date": "2026-11-11",
+    "client_name": "",
+    "amount": "invalido",
+    "currency": "USD",
+    "status": "PENDING"
+  },
+  {
+    "transaction_id": "TX-1004",
+    "source_system": "WEB_CHECKOUT",
+    "date": "2026-11-11 18:00:00",
+    "client_name": "maria rodriguez",
+    "amount": 85.50,
+    "currency": "USD",
+    "status": "FAILED"
+  },
+  {
+    "id": "TX-1005",
+    "source_system": "API_BANCARIA",
+    "date": "2026-11-09",
+    "client_name": "juan perez",
+    "amount": -200.00,
+    "currency": "USD",
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TX-1006",
+    "source_system": "WEB_CHECKOUT",
+    "date": "FechaCorrupta",
+    "client_name": "sofia lópez",
+    "amount": 300.00,
+    "currency": "USD",
+    "status": "PENDIENTE"
+  }
+]
